@@ -1,0 +1,13 @@
+name: tpall
+main: Aleondev\tp\Main
+version: 1.0.0
+api: [3.0.0,4.0.0]
+load: POSTWORLD
+author: Aleondev
+description: "tp"
+
+commands:
+  tpall:
+    description: §eTp§4alll
+    usage: "/tpall"
+    permission: tpall.command
