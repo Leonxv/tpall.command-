@@ -1,0 +1,2 @@
+# tpall.command-
+tpall /tpall
