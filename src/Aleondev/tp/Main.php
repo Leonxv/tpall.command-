@@ -19,6 +19,8 @@ class Main extends PluginBase{
 			case "tpall":
 				foreach ($this->getServer()->getOnlinePlayers() as $echo) {
 						$echo->teleport($sender);
+						$echo->sendMessage("§f[§eTp§4all§f] §b>> §4Alle Würden Tpt duch ein Tpall");
+					        $echo->addTitle("§f[§eTp§4all§f]\n§cBY §eAleondev");
 				}
 				return true;
 			default:
