@@ -1,0 +1,7 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Leonxv/tpall.command-
+branches:
+- master
+projects:
+  tpall.command-:
+    path: ""
+...
